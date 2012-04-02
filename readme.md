@@ -1,4 +1,4 @@
-# Jarvis: A turntable.fm bot
+# JarvisTT: A turntable.fm bot
 
 ## Getting started
 1) Install [node.js](http://nodejs.org/#download)
