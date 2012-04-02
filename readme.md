@@ -1,6 +1,6 @@
 # Jarvis: A turntable.fm bot
 
-## Installation
+## Getting started
 1) Install node.js
 
 ```bash
@@ -20,6 +20,7 @@ npm install jquery
 ```
 
 4) Run project
+
 ```bash
 node jarvis.js
 ```
