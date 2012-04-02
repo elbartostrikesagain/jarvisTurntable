@@ -53,18 +53,18 @@ bot.on('speak', function (data) {
    // Get the data
    var name = data.name;
    var text = data.text;
-   // Respond to "/hello" command
+
    if (text.match(/^\/botup$/)) {
-      bot.speak('You cant do this yet');
+      bot.addDj();
    }
    if (text.match(/^\/botdown$/)) {
-      bot.speak('You cant do this yet');
+      bot.remDj();
    }
    if (text.match(/^\/ban .*$/)) {
       var userToBanStr = text.substring(4, text.length);
       var userToBan = findByName(userToBanStr);
 	  if(userToBan == null){
-		bot.speak('User not found:' + userToBanStr);
+		bot.speak('User not found in room:' + userToBanStr);
 		return;
 	  }
 	  
