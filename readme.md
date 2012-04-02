@@ -19,7 +19,9 @@ npm install ttapi
 npm install jquery
 ```
 
-4) Run project
+4) Find your `AUTH`, `USERID` and `ROOMID` informations with [that bookmarklet](http://alaingilbert.github.com/Turntable-API/bookmarklet.html). 
+
+5) Run project(run project from different file then copy back for commits). Don't commit a file with your `AUTH`, `USERID` and `ROOMID`)
 
 ```bash
 node jarvis.js

@@ -4,9 +4,9 @@
  */
 
 var Bot    = require('../index');
-var AUTH   = 'auth+live+f07b742c65551740cd2cf037675286d0ea263d3a';
-var USERID = '4f20f215a3f75176b8000bf1';
-var ROOMID = '4f1e546c0c4cc8074d0884e8';
+var AUTH   = 'auth+live+';
+var USERID = '';
+var ROOMID = '';
 var $ = require('jquery');
 
 var bot = new Bot(AUTH, USERID, ROOMID);
