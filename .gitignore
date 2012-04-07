@@ -1,0 +1,5 @@
+.nide
+/db
+.npmignore
+node_modules/
+package.json
