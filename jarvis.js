@@ -312,7 +312,7 @@ function DeleteAdmin(name) {
                             ttfm.speak(u.name + ' is no longer an admin.');
                         }
                     });
-                    return;Once that's all set up, get an instance of MongoDB running with default settings. Then console up the following command wherever you downloaded the bot files to: 'node bot.js'. Your new little bot dude should pop in to the room you designated and be good to go.
+                    return;
                 }
             }
         }
